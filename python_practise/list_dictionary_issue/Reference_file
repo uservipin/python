@@ -1,0 +1,42 @@
+You have to design the following application. It needs to run on command prompt/shell.
+
+The purpose of this application is to manage a library for the following stakeholders:
+
+Admin
+Borrowers
+
+Admin will have the following functionalities:
+
+1.  Create more admins and borrowers.
+2.  View book details and borrowing history based on the BookID.
+3.  Add more books to the library. A book will have the following details:
+4.  BookID - This will be generated automatically by the application.
+5.  Book Title
+6.  Author Name
+7.  Total Pages
+8.  The number of copies available in the library.
+9.  ISBN - 13 digits number unique for each edition of the book.
+10. Published Year
+11. Edit these books based on BookID. All the information apart from BookID can be updated by the admin.
+12. Delete book based on BookID.
+13. List all borrowers and view their details like account info and borrowing history.
+14. Give a book to a borrower by entering the BookID and borrower's email address. A book can only be borrowed if there is a copy available at the library which is not borrowed currently.
+15. Accept book return. Charge fine of INR 100 if the book is returned 14 days after the borrowing date.
+
+
+The borrower will have the following functionalities:
+1.  Register on the application by entering the following information:
+2.  Full Name
+3.  DOB
+4.  Contact Number
+5.  Email Address
+6.  Password
+7.  Log in to the platform using email and password.
+8.  View the list of the currently borrowed books along with the remaining time. A book can only be borrowed for 15 days at a time.
+9.  View book details of each borrowed book.
+10. View borrowing history - list of the book borrowed in the past.
+
+
+Create one default admin for grading:
+Username: admin
+Password: admin

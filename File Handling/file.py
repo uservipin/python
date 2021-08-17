@@ -11,8 +11,13 @@ mode:
 "r+" for borh reading and writing file
 """
 
-fp = open("ref.txt", "r")
-x= fp.read()
-print(x)
+file = open("ref.txt", "r")
+# x= file.read()
+y = file.readlines()
+
+
+
+# print(x)
+print(y)
 
 
